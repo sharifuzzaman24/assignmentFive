@@ -10,16 +10,26 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/d85ca7a2f2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d85ca7a2f2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav class="bg-opacity-70 fixed top-0 left-0 right-0 backdrop-blur-md z-50">
+      <nav
+        class="bg-opacity-70 fixed top-0 left-0 right-0 backdrop-blur-md z-50"
+      >
         <div class="flex flex-col">
-          <div class="bg-gray-700 flex gap-4 md:gap-0 flex-col md:flex-row justify-around items-center py-5">
+          <div
+            class="bg-gray-700 flex gap-4 md:gap-0 flex-col md:flex-row justify-around items-center py-3"
+          >
             <div>
-              <button class="btn btn-info w-80 md:w-20 text-xl font-semibold text-white" id="blogButton">
+              <button
+                class="btn btn-info w-80 md:w-24 text-xl font-semibold text-white"
+                id="blogButton"
+              >
                 Blog
               </button>
             </div>
@@ -36,21 +46,27 @@
               </h2>
             </div>
           </div>
-          <div class="flex flex-col items-center md:flex-row justify-center my-5 md:my-10">
-            <button id="donation_btn" class="btn btn-info text-xl font-semibold w-60 my-5 md:mx-5 text-white">
+          <div
+            class="flex flex-col items-center md:flex-row justify-center my-5 md:my-5"
+          >
+            <button
+              id="donation_btn"
+              class="btn btn-info text-xl font-semibold w-60 my-5 md:mx-5 text-white"
+            >
               Donation
             </button>
-            <button id="history_btn" class="btn btn-outline font-semibold text-xl w-60 text-white">
+            <button
+              id="history_btn"
+              class="btn btn-outline font-semibold text-xl w-60 text-white"
+            >
               History
             </button>
           </div>
         </div>
       </nav>
     </header>
-    
-    
-    
-    <main class="max-w-6xl mx-auto px-4 min-h-screen pt-[260px]">
+
+    <main class="max-w-6xl mx-auto px-4 min-h-screen pt-[206px]">
       <div id="donation_section">
         <div class="border rounded-xl p-5 mb-10">
           <div
@@ -70,7 +86,8 @@
                 <p>BDT</p>
               </div>
               <h2 class="text-xl font-bold mt-4 text-white">
-                Donate for <span id="noakhali_title">Flood at Noakhali, Bangladesh</span>
+                Donate for
+                <span id="noakhali_title">Flood at Noakhali, Bangladesh</span>
               </h2>
               <p class="font-light text-base mt-4 text-white">
                 The recent floods in Noakhali have caused significant damage to
@@ -113,7 +130,8 @@
                 <p>BDT</p>
               </div>
               <h2 class="text-xl font-bold mt-4 text-white">
-                Aid for <span id="quota_title">Injured in the Quota Movement</span>
+                Aid for
+                <span id="quota_title">Injured in the Quota Movement</span>
               </h2>
               <p class="font-light text-base mt-4 text-white">
                 The recent Quota movement has resulted in numerous injuries and
@@ -159,7 +177,8 @@
                 <p>BDT</p>
               </div>
               <h2 class="text-xl font-bold mt-4 text-white">
-                Donate for <span id="feni_title">Flood Relief in Feni,Bangladesh</span>
+                Donate for
+                <span id="feni_title">Flood Relief in Feni,Bangladesh</span>
               </h2>
               <p class="font-light text-base mt-4 text-white">
                 The recent floods in Feni have devastated local communities,
@@ -187,15 +206,13 @@
           </div>
         </div>
       </div>
-      <div id="transactions_section" class="hidden">
-        
-      </div>
+      <div id="transactions_section" class="hidden"></div>
     </main>
     <!-- modal -->
     <dialog id="succes_modal" class="modal">
       <div class="modal-box flex items-center flex-col">
         <h3 class="text-green-400 mb-4 text-4xl font-extrabold">Congrates!</h3>
-        <img src="./assets/coin.png" alt="">
+        <img src="./assets/coin.png" alt="" />
         <p class="py-4">You Have Donated for Humankind</p>
         <h3 class="text-green-400 font-bold text-2xl">Successfully</h3>
         <div class="modal-action">
