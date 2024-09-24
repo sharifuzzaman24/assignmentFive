@@ -47,7 +47,7 @@ document
       "mt-4"
     );
 
-    div.innerHTML = `<p>${noakhaliDonation} Taka is Donated for ${noakhaliTitle}</p>
+    div.innerHTML = `<p class="text-lg font-semibold text-white">${noakhaliDonation} Taka is Donated for ${noakhaliTitle}</p>
     <p>${time}</p>`;
 
     document.getElementById("transactions_section").appendChild(div);
@@ -98,7 +98,7 @@ document
       "mt-4"
     );
 
-    div.innerHTML = `<p>${quotaDonation} Taka is Donated for ${quotaTitle}</p>
+    div.innerHTML = `<p class="text-lg font-semibold text-white">${quotaDonation} Taka is Donated for ${quotaTitle}</p>
     <p>${time}</p>`;
 
     document.getElementById("transactions_section").appendChild(div);
@@ -149,7 +149,7 @@ document
       "mt-4"
     );
 
-    div.innerHTML = `<p>${feniDonation} Taka is Donated for ${feniTitle}</p>
+    div.innerHTML = `<p class="text-lg font-semibold text-white">${feniDonation} Taka is Donated for ${feniTitle}</p>
     <p>${time}</p>`;
 
     document.getElementById("transactions_section").appendChild(div);
